@@ -229,4 +229,4 @@ if __name__ == '__main__' :
 
     estimator = Estimator(env)
     estimator.initialize()
-    q_learning(env, estimator, 1000, discount_factor=1.0, epsilon=0., epsilon_decay=0.9, min_epsilon=0.)
+    q_learning(env, estimator, 500, discount_factor=1.0, epsilon=1.0, epsilon_decay=0.9, min_epsilon=0.)
